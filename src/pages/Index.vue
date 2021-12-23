@@ -1,40 +1,169 @@
 <template>
   <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
+    <!-- Banner -->
+    <section id="banner">
+      <div class="content">
+        <header>
+          <h2>Level-up your coding skills</h2>
+          <p>
+            <strong>WHERE:</strong> Online
+            <br />
+            <!-- 751 Park of Commerce Dr #126, Boca Raton, FL 33487<br /> -->
+            <strong>WHEN:</strong> Every Monday at 6:30 PM EST
+            <br />
+            <strong>SLACK:</strong>
+            <a href="http://bit.ly/grammerhub-slack" target="”_blank”">grammerhub.slack.com</a>
+          </p>
+        </header>
+        <span class="image">
+          <img src="../assets/images/pic01.jpg" alt />
+        </span>
+      </div>
+      <a href="#one" class="goto-next scrolly">Next</a>
+    </section>
 
-    <h1>Hello, world!</h1>
+    <!-- One -->
+    <section id="one" class="spotlight style1 bottom">
+      <span class="image fit main">
+        <img src="../assets/images/pic02.jpg" alt />
+      </span>
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-12-medium">
+              <header>
+                <h2>What we're about</h2>
+                <p>Peer Programming Sessions</p>
+              </header>
+            </div>
+            <div class="col-4 col-12-medium">
+              <p>
+                A meetup for people who are (relatively) new to programming, or who want to learn how to code - although everyone is welcome!
+                <br />
+                <br />Our goals for Grammerhub's weekly Monday coding nights*:
+                <br />- Support independent projects and collaboration
+                <br />- Build a community and provide accountability
+                <br />- Provide opportunities to grow professionally with technology
+              </p>
+            </div>
+            <div class="col-4 col-12-medium">
+              <p>
+                New to Grammerhub? No problem! We have volunteer organizers to help you get started.
+                <br />
+                <br />Grammerhub workspace on Slack:
+                <a
+                  href="http://bit.ly/grammerhub-slack"
+                  target="”_blank”"
+                >grammerhub.slack.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#two" class="goto-next scrolly">Next</a>
+    </section>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores</p>
+    <!-- Two -->
+    <section id="two" class="spotlight style2 right">
+      <span class="image fit main">
+        <img src="../assets/images/pic03.jpg" alt />
+      </span>
+      <div class="content">
+        <header>
+          <h2>How it works</h2>
+          <!-- <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p> -->
+        </header>
+        <p>
+          - 6:30 pm EST: We open our general video conference call (Intros, Q&A, Show-and-Tell, etc.)
+          <br />- 7:00 pm EST: Work on Project(s)
+          <br />- 8:15 pm EST: Wrap-up, announcements
+        </p>
+        <ul class="actions">
+          <li>
+            <a href="http://bit.ly/grammerhub-slack" target="”_blank”" class="button">Learn More</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#three" class="goto-next scrolly">Next</a>
+    </section>
 
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-    <div v-for="profile in profiles" :key="profile.id">
+    <!-- Three -->
+    <section id="three" class="spotlight style3 left">
+      <span class="image fit main bottom">
+        <img src="../assets/images/pic04.jpg" alt />
+      </span>
+      <div class="content">
+        <header>
+          <h2>What you’ll learn</h2>
+          <!-- <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p> -->
+        </header>
+        <p>
+          - Web development techniques and syntax for programming in multiple languages
+          <br />- How to deploy your code
+          <br />- Resources for continued learning
+        </p>
+        <ul class="actions">
+          <li>
+            <a href="http://bit.ly/grammerhub-slack" target="”_blank”" class="button">Learn More</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#four" class="goto-next scrolly">Next</a>
+    </section>
+    <!-- Five -->
+    <section id="five" class="wrapper style2 special fade">
+      <div class="container">
+        <header>
+          <h2>Get in touch</h2>
+          <p>Drop us a line for any questions you might have to get you started or reach us on our Slack</p>
+        </header>
+        <form method="post" action="#" class="cta">
+          <div class="row gtr-uniform gtr-50">
+            <div class="col-8 col-12-xsmall">
+              <input type="email" name="email" id="email" placeholder="Your Email Address" />
+            </div>
+            <div class="col-4 col-12-xsmall">
+              <input type="submit" value="Get Started" class="fit primary" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- <div v-for="profile in profiles" :key="profile.id">
       <h4>{{ profile.name }}</h4>
       <a :href="`/profile/${profile.id}`">view profile</a>
-    </div>
+    </div>-->
   </Layout>
 </template>
 
 <script>
-import { profiles } from "../data/developers.json"
+// import { profiles } from "../data/developers.json"
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'In person coding sessions',
   },
-  data() {
-    return {
-      profiles
-    }
-  }
+  // data() {
+  //   return {
+  //     profiles
+  //   }
+  // }
 }
 </script>
 
-<style>
-.home-links a {
+<style >
+/* .home-links a {
   margin-right: 1rem;
+} */
+
+.spotlight.style1 {
+  background-image: url("../assets/images/pic02.jpg");
+}
+.spotlight.style2 {
+  background-image: url("../assets/images/pic03.jpg");
+}
+.spotlight.style3 {
+  background-image: url("../assets/images/pic04.jpg");
 }
 </style>
