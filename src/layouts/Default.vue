@@ -1,15 +1,74 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+  <div class="page-wrapper">
+    <!-- Header -->
+    <header id="header">
+      <h1 id="logo">
+        <a href="/">g r a m m e r h u b</a>
+      </h1>
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="/">home</a>
+          </li>
+          <li>
+            <a href="#one">about</a>
+          </li>
+          <li>
+            <a
+              href="https://www.meetup.com/grammerhub"
+              class="button primary"
+              target="”_blank”"
+            >join</a>
+          </li>
+        </ul>
       </nav>
     </header>
-    <slot/>
+    <slot />
+
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <li>
+          <a
+            href="https://twitter.com/grammerhub"
+            target="”_blank”"
+            class="icon brands alt fa-twitter"
+          >
+            <span class="label">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/GrammerhubTeam"
+            target="”_blank”"
+            class="icon brands alt fa-github"
+          >
+            <span class="label">GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.meetup.com/grammerhub"
+            target="”_blank”"
+            class="icon brands alt fa-slack"
+          >
+            <span class="label">Slack</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://bit.ly/grammerhub-slack"
+            target="”_blank”"
+            class="icon brands alt fa-meetup"
+          >
+            <span class="label">Meetup</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Grammerhub 2020 - 2021. All Rights Reserved.</li>
+      </ul>
+    </footer>
   </div>
 </template>
 
@@ -20,31 +79,3 @@ query {
   }
 }
 </static-query>
-
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
-</style>
