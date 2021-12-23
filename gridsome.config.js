@@ -6,5 +6,7 @@
 
 module.exports = {
   siteName: 'g r a m m e r h u b',
+  siteUrl: 'https://www.grammerhub.org',
+  pathPrefix: '/grammerhub.github.io',
   plugins: []
 }
