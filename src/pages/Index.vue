@@ -23,7 +23,7 @@
     </section>
 
     <!-- One -->
-    <section id="one" class="spotlight style1 bottom">
+    <section id="one" class="spotlight style1 bottom inactive">
       <span class="image fit main">
         <img src="../assets/images/pic02.jpg" alt />
       </span>
@@ -64,7 +64,7 @@
     </section>
 
     <!-- Two -->
-    <section id="two" class="spotlight style2 right">
+    <section id="two" class="spotlight style2 right inactive">
       <span class="image fit main">
         <img src="../assets/images/pic03.jpg" alt />
       </span>
@@ -88,7 +88,7 @@
     </section>
 
     <!-- Three -->
-    <section id="three" class="spotlight style3 left">
+    <section id="three" class="spotlight style3 left inactive">
       <span class="image fit main bottom">
         <img src="../assets/images/pic04.jpg" alt />
       </span>
@@ -143,6 +143,30 @@
 export default {
   metaInfo: {
     title: 'In person coding sessions',
+  },
+  mounted() {
+    const sections = document.querySelectorAll("section.spotlight")
+    const sectionObserver = new IntersectionObserver (
+      handleIntersection,
+      {
+      root: null, // relative to document viewport 
+      rootMargin: '0px', // margin around root. Values are similar to css property. Unitless values not allowed
+      threshold: 0.50 // visible amount of item shown in relation to root
+      })
+
+    sections.forEach(section => {
+      sectionObserver.observe(section)
+    })
+
+    function handleIntersection(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove("inactive")
+          sectionObserver.unobserve(entry.target)
+        }
+      })
+    }
+
   },
   // data() {
   //   return {
