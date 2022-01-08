@@ -1,0 +1,40 @@
+[
+  {
+    "image": "../images/Daniele-Longo.jpg",
+    "name": "Daniele Longo",
+    "title": "Front-End Developer",
+    "status": "Available",
+    "description": "I am a motivated Frontend Developer / Fullstack Software Engineer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good design principles. My 10+ years of experience as a graphic designer developing print, digital, and motion graphics materials allowed me to grow as a reliable and results-driven team player that delivers with a growth mindset and commitment to success.",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB"
+    ],
+    "portfolio": "www.dlongo.dev",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/dlongodev"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/dlongodev"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/danielealongo/"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/dlongodev/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:dlongodesign@gmail.com"
+      }
+    ]
+  }
+]
