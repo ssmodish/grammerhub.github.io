@@ -12,7 +12,7 @@
             <strong>WHEN:</strong> Every Monday at 6:30 PM EST
             <br />
             <strong>SLACK:</strong>
-            <a href="http://bit.ly/grammerhub-slack" target="”_blank”">grammerhub.slack.com</a>
+            <a href="http://bit.ly/grammerhub-slack" target="”_blank”"> grammerhub.slack.com</a>
           </p>
         </header>
         <span class="image">
