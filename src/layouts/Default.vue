@@ -10,9 +10,9 @@
           <li>
             <a href="/">home</a>
           </li>
-          <li>
+          <!-- <li>
             <g-link to="/hire/developers">find talent</g-link>
-          </li>
+          </li> -->
           <li>
             <a href="#one">about</a>
           </li>
