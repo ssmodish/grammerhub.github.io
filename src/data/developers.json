@@ -5,15 +5,8 @@
     "title": "Front-End Developer",
     "status": "Available",
     "description": "I am a motivated Frontend Developer / Fullstack Software Engineer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good design principles. My 10+ years of experience as a graphic designer developing print, digital, and motion graphics materials allowed me to grow as a reliable and results-driven team player that delivers with a growth mindset and commitment to success.",
-    "skills": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB"
-    ],
-    "portfolio": "www.dlongo.dev",
+    "skills": ["HTML5", "CSS3", "JavaScript", "NodeJS", "ExpressJS", "MongoDB"],
+    "portfolio": "https://dlongo.dev/",
     "social": [
       {
         "name": "Twitter",
@@ -34,6 +27,47 @@
       {
         "name": "Email",
         "url": "mailto:dlongodesign@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Steve-Smodish.png",
+    "name": "Steve Smodish",
+    "title": "Software Developer",
+    "status": "Available",
+    "description": "I'm looking for my first developer role. My interests skew towards Back End and DevOps.",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Knex",
+      "PostGRES",
+      "MySQL/MariaDB",
+      "React",
+      "Redux",
+      "PassportJS",
+      "NextJS"
+    ],
+    "portfolio": "https://github.com/ssmodish",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/SteveTheDevelo1"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/ssmodish"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/stevesmodish/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:steve.smodish+fromGrammerhub@gmail.com"
       }
     ]
   }

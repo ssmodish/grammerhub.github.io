@@ -12,3 +12,13 @@ This is the project you get when you run `gridsome create new-project`.
 2. `cd my-gridsome-site` to open the folder
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
+
+---
+
+## To add a developer profile
+
+1. Fork project and create your own branch named `gh-[firstName]`
+2. Edit/Add to `/src/data/developers.json`
+   - Complete URL for Portfolio is required
+3. Add your photo to `/static/images`
+   - Dimensions of image should be 400px x 400px
