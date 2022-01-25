@@ -17,7 +17,8 @@ This is the project you get when you run `gridsome create new-project`.
 
 ## To add a developer profile
 
-1. Edit/Add to `/src/data/developers.json`
+1. Fork project and create your own branch named `gh-[firstName]`
+2. Edit/Add to `/src/data/developers.json`
    - Complete URL for Portfolio is required
-2. Add your photo to `/static/images`
+3. Add your photo to `/static/images`
    - Dimensions of image should be 400px x 400px
