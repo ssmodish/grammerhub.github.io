@@ -5,7 +5,14 @@
     "title": "Front-End Developer",
     "status": "Available",
     "description": "I am a motivated Frontend Developer / Fullstack Software Engineer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good design principles. My 10+ years of experience as a graphic designer developing print, digital, and motion graphics materials allowed me to grow as a reliable and results-driven team player that delivers with a growth mindset and commitment to success.",
-    "skills": ["HTML5", "CSS3", "JavaScript", "NodeJS", "ExpressJS", "MongoDB"],
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB"
+    ],
     "portfolio": "https://dlongo.dev/",
     "social": [
       {
@@ -62,6 +69,10 @@
       {
         "name": "Email",
         "url": "mailto:alexcurtisslep@gmail.com"
+      }
+    ]
+  },
+  {
     "image": "../images/Steve-Smodish.png",
     "name": "Steve Smodish",
     "title": "Software Developer",
