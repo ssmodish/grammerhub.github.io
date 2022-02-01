@@ -31,6 +31,37 @@
     ]
   },
   {
+    "image": "../images/Alex-Curtis-Slep.png",
+    "name": "Alex Curtis-Slep",
+    "title": "Full-Stack Developer",
+    "status": "Available",
+    "description": "Hello, I'm a full stack dev, who leverages React, JavaScript and SCSS to solve problems with gusto. I enjoy contributing to open source, learning new languages and frameworks, and helping other developers along their journey.",
+    "skills": [
+      "HTML5",
+      "JavaScript",
+      "CSS3",
+      "SCSS",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS"
+    ],
+    "portfolio": "alexcurtisslep.com",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/alexcurtisslep"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/alexvcs"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexcurtisslep/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:alexcurtisslep@gmail.com"
     "image": "../images/Steve-Smodish.png",
     "name": "Steve Smodish",
     "title": "Software Developer",
