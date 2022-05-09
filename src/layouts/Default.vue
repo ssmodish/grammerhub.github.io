@@ -3,25 +3,25 @@
     <!-- Header -->
     <header id="header">
       <h1 id="logo">
-        <a href="/">g r a m m e r h u b</a>
+        <g-link to="/">g r a m m e r h u b</g-link>
       </h1>
       <nav id="nav">
         <ul>
           <li>
-            <a href="/">home</a>
+            <g-link to="/">home</g-link>
           </li>
-          <!-- <li>
+          <li>
             <g-link to="/hire/developers">find talent</g-link>
-          </li> -->
-          <li>
-            <a href="#one">about</a>
           </li>
           <li>
-            <a
-              href="https://www.meetup.com/grammerhub"
+            <g-link to="/#about">about</g-link>
+          </li>
+          <li>
+            <g-link
+               to="https://www.meetup.com/grammerhub"
               class="button primary"
               target="”_blank”"
-            >join</a>
+            >join</g-link>
           </li>
         </ul>
       </nav>

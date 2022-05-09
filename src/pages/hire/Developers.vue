@@ -2,18 +2,11 @@
   <Layout>
     <!-- Banner -->
     <section id="banner">
-      <div class="content align-center">
+      <div class="content">
         <header>
-          <span class="image logo">
-            <img src="@/assets/images/pic01.jpg" alt="Grammerhub Logo" />
-          </span>
-          <br />
-          <br />
           <h2>GRAMMERHUB | DEVELOPERS</h2>
-          <p>
-            Let's write a paragraph about the developers featured at Grammerhub. How can other developers
-            participate in our
-            community and how they can be featured here.
+          <p class="fit-content">
+            Let's write a paragraph about the developers featured at Grammerhub. How can other developers participate in our community and how they can be featured here.
           </p>
           <br />
           <ul class="icons">
@@ -60,21 +53,21 @@
             </li>
           </ul>
         </header>
+        <span class="image">
+          <img src="@/assets/images/pic01.jpg" alt="Grammerhub Logo" />
+        </span>
       </div>
+      <a href="#one" class="goto-next scrolly">Next</a>
     </section>
-    <a href="#one" class="goto-next scrolly">Next</a>
 
     <!-- developer info starts -->
     <section
       v-for="(developer, index) in developers"
       :key="index"
-      id="one"
+      :id="'developer-' + index"	
       class="spotlight bottom inactive"
-      :class="`style${index + 1}`"
+      :class="`style${(index % 3) + 1}`"
     >
-      <span class="image fit main" id="dev-bg">
-        <img id="devPageBg" src="@/assets/images/pic02.jpg" alt />
-      </span>
       <div class="content">
         <div class="container">
           <div class="row">
@@ -98,7 +91,7 @@
               </ul>
               <h4>Portfolio</h4>
               <p>
-                <a :href="developer.portfolio" target="”_blank”">{{ developer.portfolio }}</a>
+                <a :href="developer.portfolio" target="_blank">{{ developer.portfolio }}</a>
               </p>
               <h3>Contact</h3>
               <ul class="icons">
