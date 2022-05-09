@@ -19,11 +19,11 @@
           <img src="@/assets/images/pic01.jpg" alt />
         </span>
       </div>
-      <a href="#one" class="goto-next scrolly">Next</a>
+      <a href="#about" class="goto-next scrolly">Next</a>
     </section>
 
-    <!-- One -->
-    <section id="one" class="spotlight style1 bottom inactive">
+    <!-- about -->
+    <section id="about" class="spotlight style1 bottom inactive">
       <span class="image fit main">
         <img src="@/assets/images/pic02.jpg" />
       </span>
