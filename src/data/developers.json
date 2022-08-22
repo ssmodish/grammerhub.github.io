@@ -5,14 +5,7 @@
     "title": "Front-End Developer",
     "status": "Available",
     "description": "I am a motivated Frontend Developer / Fullstack Software Engineer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good design principles. My 10+ years of experience as a graphic designer developing print, digital, and motion graphics materials allowed me to grow as a reliable and results-driven team player that delivers with a growth mindset and commitment to success.",
-    "skills": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB"
-    ],
+    "skills": ["HTML5", "CSS3", "JavaScript", "NodeJS", "ExpressJS", "MongoDB"],
     "portfolio": "https://dlongo.dev/",
     "social": [
       {
@@ -110,6 +103,42 @@
       {
         "name": "Email",
         "url": "mailto:steve.smodish+fromGrammerhub@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Jasmin-Villatoro.png",
+    "name": "Jasmin Villatoro",
+    "title": "Frontend Web Developer",
+    "status": "Available",
+    "description": "Hello! My name is Jasmin, I'm a Frontend Web Developer. I've created multiple User Interface projects with HTML, CSS, JavaScript, and ReactJS. I also have internship experience where I collaborated in a Software Development team environment.",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ReactJS",
+      "Git",
+      "GitHub",
+      "Tailwindcss"
+    ],
+    "portfolio": "https://www.jasminvillatoroportfolio.com/",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/Jas_codes"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Jasminvillatoro"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jasmin-villatoro/"
+      },
+
+      {
+        "name": "Email",
+        "url": "mailto:jasminvilla321@gmail.com"
       }
     ]
   }
