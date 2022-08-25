@@ -1,5 +1,39 @@
 [
   {
+    "image": "../images/Jody-VanHoose.png",
+    "name": "Jody VanHoose",
+    "title": "Front-End Developer",
+    "status": "Available",
+    "description": "Hello my name is Jody, I'm a Front End Web Developer who has a passion for tech. I am also a Physical Therapist Assistant and currently in a leadership role with many years of experience in healthcare bringing many other qualifications with me like excellent oral/written communication, great teamwork skills, and problem solving. I am highly motivated dedicated. Let's get in touch!",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "SCSS",
+      "TailwindCSS",
+      "ReactJS"
+    ],
+    "portfolio": "https://jodyvanhoose-web-dev-portfolio.netlify.app/",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/jody_vanhoose"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/jodyvanhoose"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jody-vanhoose/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:jodyvanhoose0@gmail.com"
+      }
+    ]
+  },
+  {
     "image": "../images/Daniele-Longo.jpg",
     "name": "Daniele Longo",
     "title": "Front-End Developer",
