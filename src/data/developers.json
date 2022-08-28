@@ -4,7 +4,7 @@
     "name": "Jody VanHoose",
     "title": "Front-End Developer",
     "status": "Available",
-    "description": "Hello my name is Jody, I'm a Front End Web Developer who has a passion for tech. I am also a Physical Therapist Assistant and currently in a leadership role with many years of experience in healthcare bringing many other qualifications with me like excellent oral/written communication, great teamwork skills, and problem solving. I am highly motivated dedicated. Let's get in touch!",
+    "description": "Hello my name is Jody, I'm a Front End Web Developer who has a passion for tech. I am also a Physical Therapist Assistant and currently in a leadership role with many years of experience in healthcare bringing many other qualifications with me like excellent oral/written communication, great teamwork skills, and problem solving. I am highly motivated dedicated. Let's get in touch.",
     "skills": [
       "HTML5",
       "CSS3",
@@ -13,7 +13,7 @@
       "TailwindCSS",
       "ReactJS"
     ],
-    "portfolio": "https://jodyvanhoose-web-dev-portfolio.netlify.app/",
+    "portfolio": "https://jodyvanhoose.com",
     "social": [
       {
         "name": "Twitter",
