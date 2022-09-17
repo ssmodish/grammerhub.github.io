@@ -1,6 +1,6 @@
 [
   {
-    "image": "../images/Alex-Curtis-Slep.png",
+    "image": "Alex-Curtis-Slep.png",
     "name": "Alex Curtis-Slep",
     "title": "Full-Stack Developer",
     "status": "Available",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "image": "../images/Steve-Smodish.png",
+    "image": "Steve-Smodish.png",
     "name": "Steve Smodish",
     "title": "Software Developer",
     "status": "Available",
@@ -69,7 +69,7 @@
     ]
   },
   {
-    "image": "../images/Jody-VanHoose.png",
+    "image": "Jody-VanHoose.png",
     "name": "Jody VanHoose",
     "title": "Front-End Developer",
     "status": "Available",
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "image": "../images/Jasmin-Villatoro.png",
+    "image": "Jasmin-Villatoro.png",
     "name": "Jasmin Villatoro",
     "title": "Frontend Web Developer",
     "status": "Available",
@@ -132,7 +132,7 @@
     ]
   },
   {
-    "image": "../images/Daniele-Longo.jpg",
+    "image": "Daniele-Longo.jpg",
     "name": "Daniele Longo",
     "title": "Front-End Developer",
     "status": "Available",

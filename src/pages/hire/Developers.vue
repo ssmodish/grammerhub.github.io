@@ -6,43 +6,28 @@
         <header>
           <h2>GRAMMERHUB | DEVELOPERS</h2>
           <p class="fit-content">
-            Let's write a paragraph about the developers featured at Grammerhub. How can other developers participate in our community and how they can be featured here.
+            Let's write a paragraph about the developers featured at Grammerhub. How can other developers participate in
+            our community and how they can be featured here.
           </p>
           <br />
           <ul class="icons">
             <li>
-              <a
-                href="https://twitter.com/grammerhub"
-                target="”_blank”"
-                class="icon brands alt fa-twitter"
-              >
+              <a href="https://twitter.com/grammerhub" target="”_blank”" class="icon brands alt fa-twitter">
                 <span class="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a
-                href="https://github.com/GrammerhubTeam"
-                target="”_blank”"
-                class="icon brands alt fa-github"
-              >
+              <a href="https://github.com/GrammerhubTeam" target="”_blank”" class="icon brands alt fa-github">
                 <span class="label">GitHub</span>
               </a>
             </li>
             <li>
-              <a
-                href="https://www.meetup.com/grammerhub"
-                target="”_blank”"
-                class="icon brands alt fa-slack"
-              >
+              <a href="https://www.meetup.com/grammerhub" target="”_blank”" class="icon brands alt fa-slack">
                 <span class="label">Slack</span>
               </a>
             </li>
             <li>
-              <a
-                href="http://bit.ly/grammerhub-slack"
-                target="”_blank”"
-                class="icon brands alt fa-meetup"
-              >
+              <a href="http://bit.ly/grammerhub-slack" target="”_blank”" class="icon brands alt fa-meetup">
                 <span class="label">Meetup</span>
               </a>
             </li>
@@ -61,19 +46,14 @@
     </section>
 
     <!-- developer info starts -->
-    <section
-      v-for="(developer, index) in developers"
-      :key="index"
-      :id="'developer-' + index"	
-      class="spotlight bottom inactive"
-      :class="`style${(index % 3) + 1}`"
-    >
+    <section v-for="(developer, index) in developers" :key="index" :id="'developer-' + index"
+      class="spotlight bottom inactive" :class="`style${(index % 3) + 1}`">
       <div class="content">
         <div class="container">
           <div class="row">
             <div class="col-4 col-12-medium">
               <span class="image-dev fit main">
-                <img :src="developer.image" alt />
+                <g-image :src="`../../images/${developer.image}`" />
               </span>
             </div>
             <div class="col-4 col-12-medium">
@@ -96,12 +76,7 @@
               <h3>Contact</h3>
               <ul class="icons">
                 <li v-for="social in developer.social">
-                  <a
-                    :href="social.url"
-                    target="”_blank”"
-                    class="icon alt"
-                    :class="icons[social.name]"
-                  >
+                  <a :href="social.url" target="”_blank”" class="icon alt" :class="icons[social.name]">
                     <span class="label">Twitter</span>
                   </a>
                 </li>
