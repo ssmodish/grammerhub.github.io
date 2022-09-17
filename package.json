@@ -1,6 +1,9 @@
 {
   "name": "gridsome-site",
   "private": true,
+  "engines": {
+    "node": "~16"
+  },
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
