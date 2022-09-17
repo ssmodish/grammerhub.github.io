@@ -1,90 +1,245 @@
-[{
-        "image": "../images/Daniele-Longo.jpg",
-        "name": "Daniele Longo",
-        "title": "Front-End Developer",
-        "status": "Available",
-        "description": "I am a motivated Frontend Developer / Fullstack Software Engineer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good design principles. My 10+ years of experience as a graphic designer developing print, digital, and motion graphics materials allowed me to grow as a reliable and results-driven team player that delivers with a growth mindset and commitment to success.",
-        "skills": ["HTML5", "CSS3", "JavaScript", "NodeJS", "ExpressJS", "MongoDB"],
-        "portfolio": "https://dlongo.dev/",
-        "social": [{
-                "name": "Twitter",
-                "url": "https://twitter.com/dlongodev"
-            },
-            {
-                "name": "GitHub",
-                "url": "https://github.com/dlongodev"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "https://www.linkedin.com/in/danielealongo/"
-            },
-            {
-                "name": "Instagram",
-                "url": "https://www.instagram.com/dlongodev/"
-            },
-            {
-                "name": "Email",
-                "url": "mailto:dlongodesign@gmail.com"
-            }
-        ]
-    },
-    {
-        "image": "../images/Alex-Curtis-Slep.png",
-        "name": "Alex Curtis-Slep",
-        "title": "Full-Stack Developer",
-        "status": "Available",
-        "description": "Hello, I'm a full stack dev, who leverages React, JavaScript and SCSS to solve problems with gusto. I enjoy contributing to open source, learning new languages and frameworks, and helping other developers along their journey.",
-        "skills": ["HTML5", "JavaScript", "CSS3", "SCSS", "ReactJS", "NodeJS", "ExpressJS"],
-        "portfolio": "https://alexcurtisslep.com",
-        "social": [{
-                "name": "Twitter",
-                "url": "https://twitter.com/alexcurtisslep"
-            },
-            {
-                "name": "GitHub",
-                "url": "https://github.com/alexvcs"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "https://www.linkedin.com/in/alexcurtisslep/"
-            },
-            {
-                "name": "Email",
-                "url": "mailto:alexcurtisslep@gmail.com"
-            }
-        ]
-    },
-    {
-        "image": "../images/Steve-Smodish.png",
-        "name": "Steve Smodish",
-        "title": "Software Developer",
-        "status": "Available",
-        "description": "I'm looking for my first developer role. My interests skew towards Back End and DevOps.",
-        "skills": [
-            "HTML5 - CSS3 - JavaScript",
-            "NodeJS - Express",
-            "Knex - PostGRES",
-            "React - Redux",
-            "NextJS",
-            "PassportJS"
-        ],
-        "portfolio": "https://github.com/ssmodish",
-        "social": [{
-                "name": "Twitter",
-                "url": "https://twitter.com/SteveTheDevelo1"
-            },
-            {
-                "name": "GitHub",
-                "url": "https://github.com/ssmodish"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "https://www.linkedin.com/in/stevesmodish/"
-            },
-            {
-                "name": "Email",
-                "url": "mailto:steve.smodish+fromGrammerhub@gmail.com"
-            }
-        ]
-    }
+[
+  {
+    "image": "../images/Daniele-Longo.jpg",
+    "name": "Daniele Longo",
+    "title": "Front-End Developer",
+    "status": "Available",
+    "description": "I am a motivated Frontend Developer / Fullstack Software Engineer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good design principles. My 10+ years of experience as a graphic designer developing print, digital, and motion graphics materials allowed me to grow as a reliable and results-driven team player that delivers with a growth mindset and commitment to success.",
+    "skills": ["HTML5", "CSS3", "JavaScript", "NodeJS", "ExpressJS", "MongoDB"],
+    "portfolio": "https://dlongo.dev/",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/dlongodev"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/dlongodev"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/danielealongo/"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/dlongodev/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:dlongodesign@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Alex-Curtis-Slep.png",
+    "name": "Alex Curtis-Slep",
+    "title": "Full-Stack Developer",
+    "status": "Available",
+    "description": "Hello, I'm a full stack dev, who leverages React, JavaScript and SCSS to solve problems with gusto. I enjoy contributing to open source, learning new languages and frameworks, and helping other developers along their journey.",
+    "skills": [
+      "HTML5",
+      "JavaScript",
+      "CSS3",
+      "SCSS",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS"
+    ],
+    "portfolio": "https://alexcurtisslep.com",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/alexcurtisslep"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/alexvcs"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexcurtisslep/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:alexcurtisslep@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Steve-Smodish.png",
+    "name": "Steve Smodish",
+    "title": "Software Developer",
+    "status": "Available",
+    "description": "I'm looking for my first developer role. My interests skew towards Back End and DevOps.",
+    "skills": [
+      "HTML5 - CSS3 - JavaScript",
+      "NodeJS - Express",
+      "Knex - PostGRES",
+      "React - Redux",
+      "NextJS",
+      "PassportJS"
+    ],
+    "portfolio": "https://github.com/ssmodish",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/SteveTheDevelo1"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/ssmodish"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/stevesmodish/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:steve.smodish+fromGrammerhub@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Daniele-Longo.jpg",
+    "name": "Daniele Longo",
+    "title": "Front-End Developer",
+    "status": "Available",
+    "description": "I am a motivated Frontend Developer / Fullstack Software Engineer passionate about problem-solving with creative solutions and a keen eye for visual aesthetics that follow good design principles. My 10+ years of experience as a graphic designer developing print, digital, and motion graphics materials allowed me to grow as a reliable and results-driven team player that delivers with a growth mindset and commitment to success.",
+    "skills": ["HTML5", "CSS3", "JavaScript", "NodeJS", "ExpressJS", "MongoDB"],
+    "portfolio": "https://dlongo.dev/",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/dlongodev"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/dlongodev"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/danielealongo/"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/dlongodev/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:dlongodesign@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Alex-Curtis-Slep.png",
+    "name": "Alex Curtis-Slep",
+    "title": "Full-Stack Developer",
+    "status": "Available",
+    "description": "Hello, I'm a full stack dev, who leverages React, JavaScript and SCSS to solve problems with gusto. I enjoy contributing to open source, learning new languages and frameworks, and helping other developers along their journey.",
+    "skills": [
+      "HTML5",
+      "JavaScript",
+      "CSS3",
+      "SCSS",
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS"
+    ],
+    "portfolio": "https://alexcurtisslep.com",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/alexcurtisslep"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/alexvcs"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alexcurtisslep/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:alexcurtisslep@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Steve-Smodish.png",
+    "name": "Steve Smodish",
+    "title": "Software Developer",
+    "status": "Available",
+    "description": "I'm looking for my first developer role. My interests skew towards Back End and DevOps.",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Knex",
+      "PostGRES",
+      "MySQL/MariaDB",
+      "React",
+      "Redux",
+      "PassportJS",
+      "NextJS"
+    ],
+    "portfolio": "https://github.com/ssmodish",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/SteveTheDevelo1"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/ssmodish"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/stevesmodish/"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:steve.smodish+fromGrammerhub@gmail.com"
+      }
+    ]
+  },
+  {
+    "image": "../images/Jasmin-Villatoro.png",
+    "name": "Jasmin Villatoro",
+    "title": "Frontend Web Developer",
+    "status": "Available",
+    "description": "Hello! My name is Jasmin, I'm a Frontend Web Developer. I've created multiple User Interface projects with HTML, CSS, JavaScript, and ReactJS. I also have internship experience where I collaborated in a Software Development team environment.",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ReactJS",
+      "Git",
+      "GitHub",
+      "Tailwindcss"
+    ],
+    "portfolio": "https://www.jasminvillatoroportfolio.com/",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/Jas_codes"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Jasminvillatoro"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jasmin-villatoro/"
+      },
+
+      {
+        "name": "Email",
+        "url": "mailto:jasminvilla321@gmail.com"
+      }
+    ]
+  }
 ]
